@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost/autoheads/ist.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="My Local Motoring Community ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Autoheads</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="./ist_files/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./ist_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./ist_files/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="./ist_files/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="./ist_files/AdminLTE.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="./ist_files/blue.css">
+    <link href="./ist_files/font-awesome.min(1).css" rel="stylesheet">
+    <link href="./ist_files/css" rel="stylesheet">
+    <link href="./ist_files/home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="/autoheads/https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="/autoheads/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    <!-- Google Font -->
+<link rel="stylesheet" href="./ist_files/css(1)">
+<link href="./ist_files/responsive.css" rel="stylesheet"></head>
+
+<!-- Responsive CSS -->
+
+
+
+
+<body>
+    <!-- Preloader -->
+
+    <!-- ***** Search Form Area ***** -->
+    <div class="dorne-search-form d-flex align-items-center" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="ist.html#" method="get">
+                        <input type="search" name="caviarSearch" id="search" placeholder="Search Your Desire on Autoheads">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area" id="header" style="background-color: rgb(12, 12, 12);">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#"><img src="./belta_files/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                        <!-- Nav -->
+                        <div class="collapse navbar-collapse" id="dorneNav">
+
+                            <ul class="navbar-nav mr-auto" id="dorneMenu">
+                                <li class="nav-item active" style="color: black;">
+                                    <a class="nav-link" href="Autoheads.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="list-makes.html">Cars <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="list-mechanics.html">Mechanics <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="list-shops.html">Spares <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="list-workshop.html">Workshop <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="list-posts.html">News <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+                                </li>
+
+                            </ul>
+                            <!-- Search btn -->
+                            <div class="dorne-search-btn">
+                                <a id="search-btn" href="ist.html#"><i class="fa fa-search" aria-hidden="true"></i> Search</a>
+                            </div>
+
+                            
+
+                            <div class="dorne-signin-btn">
+                                <a href="#" data-toggle="modal" data-target="#loginVModal"><i aria-hidden="true" class="fa fa-lock"></i> Login</a>
+                            </div>
+                            <div class="dorne-signin-btn">
+                                <a href="#" data-toggle="modal" data-target="#vehicleModal"><i aria-hidden="true" class="fa fa-sign-in"></i> Sign Up</a>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+     <!-- *** login form ***** -->
+    <div class="modal" id="loginVModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"><i aria-hidden="true" class="fa fa-lock"></i> Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <div class="login-box">
+                        <div class="login-logo">
+                            <a href="#"><b>Autohead </b>System</a>
+                        </div>
+                        <!-- /.login-logo -->
+                        <div class="login-box-body">
+                            <p class="login-box-msg">Sign in to start your session</p>
+
+                            <form action="#" method="post">
+                                <div class="form-group has-feedback">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input type="password" name="password" class="form-control" placeholder="Password" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+
+                                    <!-- /.col -->
+
+                                    <button type="submit" name="login" class="btn btn-primary btn-block btn-flat">Sign In</button>
+
+                                    <!-- /.col -->
+                                </div>
+                            </form>
+
+                            <!-- /.social-auth-links -->
+
+                            <p class="login-box-msg" data-dismiss="modal"><a href="#">I forgot my password</a>
+                                <br>
+                                <a href="#" class="text-center" data-toggle="modal" data-target="#vehicleModal">Register a new Vehicle</a></p>
+
+                        </div>
+                        <!-- /.login-box-body -->
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- *** End of login form ***** -->
+
+    
+
+     <!-- *** Singup form ***** -->
+    <div class="modal" id="vehicleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"><i aria-hidden="true"></i> Register a Vehicle</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <div class="login-box">
+                        <div class="login-logo">
+                            <a href="#"><b>Autohead </b>System</a>
+                        </div>
+                        <!-- /.login-logo -->
+                        <div class="login-box-body">
+                            <p class="login-box-msg">Register A new vehicle</p>
+
+                            <form action="#" method="post">
+                                <div class="form-group has-feedback">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="phone" class="form-control" placeholder="Phone" required="">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="username" class="form-control" placeholder="Username" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="gender" class="form-control" placeholder="Gender" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+
+                                <div class="form-group has-feedback">
+                                    <select id="city___id" class="form-control">
+                                                                                <option value="" disabled="" selected="">Location</option>
+                                        <option>Harare</option>
+                                        <option>Gweru</option>
+                                        <option>Mutare</option>
+                                        <option>Marondera</option>
+                                    </select>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <select placeholder="age" id="age_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">Age</option>
+                                        <option>18-23</option>
+                                        <option>24-29</option>
+                                        <option>30-34</option>
+                                        <option>35 and over</option>
+                                    </select>
+                                </div>
+
+                                 <div class="form-group has-feedback">
+                                    <select placeholder="vehicle" id="vehicle_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">vehicle</option>
+                                        <option>audi</option>
+                                        <option>MBW</option>
+                                        <option>BENZI</option>
+                                        <option>MAZDA</option>
+                                    </select>
+                                </div>
+
+                                 <div class="form-group has-feedback">
+                                    <input type="password" name="password" class="form-control" placeholder="Password" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+
+
+                                <div class="form-group has-feedback">
+                                    <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
+                                </div>
+                            </form>
+
+                            <!-- /.social-auth-links -->
+                            <p class="login-box-msg" data-dismiss="modal"><a href="##" data-toggle="modal" data-target="#loginVModal">I already have a vehicle registered</a></p>
+
+                        </div>
+                        <!-- /.login-box-body -->
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- *** Singup form ***** -->
+    <div class="modal" id="motorModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"><i aria-hidden="true"></i> Subscribe</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <div class="login-box">
+                        <div class="login-logo">
+                            <a href="#"><b>Autohead </b>System</a>
+                        </div>
+                        <!-- /.login-logo -->
+                        <div class="login-box-body">
+                            <p class="login-box-msg">Subscribe today to join a community of genuine mechanics who love cars and their job</p>
+
+                            <form action="#" method="post">
+                                <div class="form-group has-feedback">
+
+                                    <div class="form-group has-feedback">
+                                    <input type="text" name="username" class="form-control" placeholder="Name" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="date" class="form-control" placeholder="Date of Birth" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="city" class="form-control" placeholder="Town/City" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                 <div class="form-group has-feedback">
+                                    <select id="city___id" class="form-control">
+                                                                                <option value="" disabled="" selected="">Location</option>
+                                        <option>Harare</option>
+                                        <option>Gweru</option>
+                                        <option>Mutare</option>
+                                        <option>Marondera</option>
+                                    </select>
+                                </div>
+
+
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="phone" class="form-control" placeholder="Phone" required="">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+
+
+                                
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="Institute" class="form-control" placeholder="Tertiary Institute Attended" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <input type="text" name="qualifications" class="form-control" placeholder="Technical Qualifications" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+
+                               
+                                <div class="form-group has-feedback">
+                                    <select placeholder="completion_year" id="year_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">Year of completion</option>
+                                        <option>1998</option>
+                                        <option>1999</option>
+                                        <option>2000</option>
+                                        <option>2001</option>
+                                    </select>
+                                </div>
+
+                                 <div class="form-group has-feedback">
+                                    <select placeholder="experience" id="experience_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">Working Experience</option>
+                                        <option>1 year</option>
+                                        <option>2 years</option>
+                                        <option>3 years</option>
+                                        <option>4 years</option>
+                                    </select>
+                                </div>
+
+                                 <div class="form-group has-feedback">
+                                    <select placeholder="vehicle makes" id="vehicle_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">Vehicle Makes</option>
+                                        <option>audi</option>
+                                        <option>MBW</option>
+                                        <option>BENZI</option>
+                                        <option>MAZDA</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <select placeholder="vehicle makes" id="category_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">Categories</option>
+                                        <option>audi</option>
+                                        <option>MBW</option>
+                                        <option>BENZI</option>
+                                        <option>MAZDA</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <select placeholder="Subscription Packages" id="vehicle_id" name="location_id" class="form-control">
+                                        <option value="" disabled="" selected="">Subscription Packages</option>
+                                        <option>Free trail</option>
+                                        <option>Pro</option>
+                                        <option>Premium</option>
+                                       
+                                    </select>
+                                </div>
+
+                                 <div class="form-group has-feedback">
+                                     <textarea name="direction" id="direction" class="form-control" placeholder="directions"></textarea>
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+                                <h4>Attachments</h4>
+
+                                <div class="form-group has-feedback">
+                                    <h5 style="text-align: center;color: green;">certificates</h5>
+                                    <input type="file" name="certificates" class="form-control" placeholder="certificates" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <h5 style="text-align: center;color: green;">Shop front pictures</h5>
+                                    <input type="file" name="shop_front" class="form-control" placeholder="Shop front pictures" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <h5 style="text-align: center;color: green;">Other Pictures</h5>
+                                    <input type="file" name="others" class="form-control" placeholder="Other Pictures" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <h5 style="text-align: center;color: green;">Videos</h5>
+                                    <input type="file" name="videos" class="form-control" placeholder="Videos" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+                                <div class="form-group has-feedback">
+                                    <h5 style="text-align: center;color: green;">Promotional Flyer</h5>
+                                    <input type="file" name="Promotional " class="form-control" placeholder="Promotional Flyer" required="">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+
+
+
+                                <div class="form-group has-feedback">
+                                    <button type="submit" class="btn btn-primary btn-block btn-flat">submit</button>
+                                </div>
+                            </form>
+
+                            
+                        </div>
+                        <!-- /.login-box-body -->
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+        <!-- ***** Single Listing Area Start ***** -->
+        <section class="dorne-single-listing-area section-padding-100" style="background-color:black;&gt;
+            &lt;div class=" container"="">
+                <div class="row justify-content-center">
+                    <!-- Listing Sidebar -->
+                    <div class="col-12  col-lg-3 ">
+                        <div class="book-a-table-widget mt-50" style="padding: 9px 9px;">
+                            <img src="./ist_files/toyota-1-202914.png">
+                        </div>
+                        <br>
+                       
+                    </div>
+
+                    <!-- Single Listing Content -->
+                    <div class="col-12 col-lg-6 ">
+                        <div class="single-listing-content">
+
+                            <div class="listing-title" style="color: white;">
+                                <h4>TOYOTA</h4>
+                                <h6>ist</h6>
+                            </div>
+
+                            <div class="single-listing-nav">
+                                <nav>
+                                    <ul id="listingNav">
+                                        <li class="active"><a href="#overview">Description</a></li>
+                                        <li><a href="ist.html#lomap" style="color: white;">Service Kit</a></li>
+                                        <li><a href="ist.html#review" style="color: white;">Reviews</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="overview-content mt-50" id="overview">
+                                <p>
+                      </p><p class="login-box-msg" style="color: white;">The Toyota ist is a subcompact that is also known as Scion Xa, Scion Xd, or Urban Cruiser for the second generation. It is related to the Vitz (XP10), Scion XB (XP30), and Platz (XP10).  Engines installed are the 1.3L 2AZ-FE14 and 1.5L 1AZ-FE14.
+                      <br> Transmission is either a 4 speed automatic, or 5 speed manual. 
+The ist is increasingly becoming popular on Zimbabwe’s roads owing to its ruggedness, fuel economy and handling. Among its primary competitors are the Vitz, Nissan March and Honda Fit, although the ist is used more as a personal car than people mover. 
+It was conceived as a high-end multi-use spacious compact. It is slightly bigger than the Vitz. Rear seats can be fully folded to increase space when necessary. 
+<br>The first-generation ist, which shared a platform with the Platz, was launched in 2002. 
+The second-generation ist is similar to the five-door Toyota Yaris/Vitz; but with the instrument gauges shifted in front of the driver as opposed to the middle of the dashboard previously. The second generation is related to the Belta, Vitz and Scion Xd
+Engines available are the 1.5L 1NZ-FEI4 and 1.8L 2ZR-FEI14, mated to a CVT transmission. 
+Production of the Toyota ist sadly ended in March 2016. 
+Autoheads advises owners to take care of their cars by getting the correct spares from reputable traders, as well as enlisting the services of qualified mechanics. Autoheads helps in ensuring that your car stays on the road.</p>
+.<p></p>
+
+                            </div>
+
+                            <div class="location-on-map mt-50" id="lomap">
+                                <h4 style="color: white;">Service Kit</h4>
+                                <div class="col-sm-12">
+                                  
+                                </div>
+                            </div>
+
+                            <div class="listing-reviews-area mt-100" id="review">
+                                <h4 style="color: white;">reviews</h4>
+
+                                
+                                                                                        <!-- FOR THOSE LOGGED OUT OF THE SYSTE -->
+                                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Listing Sidebar -->
+                    <div class="col-12  col-lg-3 ">
+                        
+                        <div class="listing-sidebar">
+                            <!-- Book A Table Widget -->
+                            <div class="book-a-table-widget mt-50">
+                                <h6><i class="fa  fa-car"></i> OTHER TOYOTA MODELS</h6>
+                                <br>
+                                <div style="color:black;">
+                                <p><a href="passo.html">PASSO</a></p>
+                                <p><a href="allion.html">Allion</a></p>
+                                <p><a href="belta.html">Belta</a></p>
+                                <p><a href="ist.html">ist</a></p>
+                                <p><a href="seinta.html">seinta</a></p>       
+                                                 </div>
+                                    </div>
+                            <!-- Opening Hours Widget -->
+                          
+                            <!-- Contact Form -->
+
+                        </div>
+                    </div>
+
+                </div>
+            
+        </section>
+        
+        
+            <!-- ****** Footer Area Start ****** -->
+    <footer class="dorne-footer-area" style="background-color: black; color: white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-md-flex align-items-center justify-content-between">
+                    <div class="footer-text">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright ©<script>document.write(new Date().getFullYear());</script>2020 All rights reserved | website Designed By <a href="https://www.webinnov.co.zw/" target="_blank">Webinnov Systems</a>
+
+                        </p>
+                    </div>
+                    <div class="footer-social-btns">
+                        <a href="ist.html#"><i class="fa fa-linkedin" aria-haspopup="true"></i></a>
+                        <a href="ist.html#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        <a href="ist.html#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        <a href="ist.html#"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
+                        <a href="ist.html#"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ****** Footer Area End ****** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="./ist_files/jquery-2.2.4.min.js.download"></script>
+    <!-- Popper js -->
+    <script src="./ist_files/popper.min.js.download"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="./ist_files/bootstrap.min.js.download"></script>
+    <!-- All Plugins js -->
+    <script src="./ist_files/plugins.js.download"></script>
+    <!-- Active JS -->
+    <script src="./ist_files/active.js.download"></script><a id="scrollUp" href="ist.html#top" style="display: none; position: fixed; z-index: 998;"><i class="pe-7s-angle-up" aria-hidden="true"></i></a>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#vehicle_make_id").change(function() {
+                $("#vehicle_model_id").html('<option selected="selected" value="">Model</option>');
+                $("#vehicle_model_id").load('/autoheads/ajax/get-vehicle-models.php?vehicle_make_id=' + $("#vehicle_make_id").val());
+            });
+            
+            
+            $("#city_id").change(function() {
+                $("#location_id").html('<option selected="selected" value="">Location</option>');
+                $("#location_id").load('/autoheads/ajax/get-city-locations.php?city_id=' + $("#city_id").val());
+            });
+            
+            
+            $("#city__id").change(function() {
+                $("#location__id").html('<option selected="selected" value="">Location</option>');
+                $("#location__id").load('/autoheads/ajax/get-city-locations.php?city_id=' + $("#city__id").val());
+            });
+            
+            $("#city___id").change(function() {
+                $("#location___id").html('<option selected="selected" value="">Location</option>');
+                $("#location___id").load('http://autoheads.webinnov.co.zw/ajax/get-city-locations.php?city_id=' + $("#city___id").val());
+            });
+        });
+        
+    </script>
+
+
+</body></html>
